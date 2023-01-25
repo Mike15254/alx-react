@@ -3,7 +3,7 @@ import _ from 'lodash';
 $(function () {
   let count = 0;
 
-  $('body').append('<p id="logo"></p>')
+  $('body').append('<div id="logo" width="200px" height="200px"></div>')
   $('body').append('<p>Holberton Dashboard</p>');
   $('body').append('<p>Dashboard data for the students</p>');
   $('body').append('<button>Click here to get started</button>');
