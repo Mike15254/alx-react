@@ -1,7 +1,6 @@
 #count {
+    display: inline;
     font-weight: bold;
-    position: absolute;
-    right: 10px;
 }
 
 #logo {
