@@ -1,10 +1,9 @@
 import logo from './holberton-logo.jpg';
-import React, { useState } from 'react';
-import getFullYear from './utils';
-import getFooterCopy from './utils';
+import React from 'react';
+import { getFullYear, getFooterCopy } from '../../src/utils';
+import './App.css';
 
 const App = () => {
-  const isIndex = useState(false)
   return (
     <div className="App">
       <div className="App-header">
@@ -18,7 +17,9 @@ const App = () => {
       <div className="App-footer">
         <div class="horizontal-line"></div>
         <p>
-          <em>Copyright { getFullYear()} - {getFooterCopy(isIndex)}</em>
+          <em>
+            Copyright {getFooterCopy()} - {getFooterCopy()}
+          </em>
         </p>
       </div>
     </div>
