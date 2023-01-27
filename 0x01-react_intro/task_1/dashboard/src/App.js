@@ -1,6 +1,6 @@
 import logo from './holberton-logo.jpg';
 import React from 'react';
-import { getFullYear, getFooterCopy } from '../../src/utils';
+import { getFullYear, getFooterCopy } from './utils';
 import './App.css';
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
         <div class="horizontal-line"></div>
         <p>
           <em>
-            Copyright {getFooterCopy()} - {getFooterCopy()}
+            Copyright {getFullYear()} - {getFooterCopy()}
           </em>
         </p>
       </div>
