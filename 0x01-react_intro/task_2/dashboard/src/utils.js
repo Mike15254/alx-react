@@ -10,12 +10,6 @@ export const getFooterCopy = (isIndex) => {
   }
 };
 
-const getLatestNotification = () => {
-  return (
-    <p>
-      <strong>Urgent requiremnt</strong> - complete by EOD
-    </p>
-  );
+export const getLatestNotification = () => {
+  return '<strong>Urgent requiremnt</strong> - complete by EOD';
 };
-
-export { getLatestNotification };
