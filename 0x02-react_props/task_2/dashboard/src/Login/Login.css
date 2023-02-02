@@ -1,0 +1,14 @@
+.App {
+    margin: 2rem;
+  }
+
+  .horizontal-line {
+    border-bottom: 3px solid rgb(226, 39, 39);
+    width: 100%;
+  }
+  
+  .App-body {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    font-weight: 600;
+  }
