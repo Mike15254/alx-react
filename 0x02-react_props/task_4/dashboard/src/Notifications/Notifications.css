@@ -1,0 +1,23 @@
+.App {
+  margin: 2rem;
+}
+
+
+.Notifications {
+  border: thin dotted #e0344a;
+  padding: 4px 16px;
+  float: right;
+}
+
+[data-priority='default'] {
+  color: blue;
+}
+
+[data-priority='urgent'] {
+  color: red;
+}
+
+.menuItem {
+  text-align: right;
+  margin-right: 16px;
+}

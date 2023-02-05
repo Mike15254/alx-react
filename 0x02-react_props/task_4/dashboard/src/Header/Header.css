@@ -1,0 +1,18 @@
+.App {
+  margin: 2rem;
+}
+
+.App-header {
+  display: flex;
+}
+
+.App-header img {
+  width: 200px;
+  height: 200px;
+}
+
+.App-header h1 {
+  padding-top: 40px;
+  padding-left: 20px;
+  color: rgb(226, 39, 39);
+}
