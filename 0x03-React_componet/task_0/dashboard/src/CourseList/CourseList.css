@@ -1,0 +1,30 @@
+.App {
+  margin: 2rem;
+}
+
+.course-list {
+  width: 95%;
+  margin: 2rem;
+  margin-top: 100px;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+.course-list th[colspan='2'] {
+  text-align: center;
+}
+
+.course-list th {
+  text-align: left;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.course-list td {
+  text-align: left;
+}
+
+.horizontal-line {
+  border-bottom: 3px solid rgb(226, 39, 39);
+  width: 100;
+}
